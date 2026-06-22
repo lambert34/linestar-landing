@@ -1,0 +1,6 @@
+/* Footer placeholder styles. */
+.site-footer {
+  padding: 32px 0;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}

@@ -1,0 +1,29 @@
+/* Responsive breakpoints and future mobile menu adjustments. */
+@media (max-width: 1024px) {
+  .site-header__contacts {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header__nav {
+    display: none;
+  }
+
+  .site-header__burger {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  section {
+    padding: 56px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
