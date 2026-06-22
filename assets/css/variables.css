@@ -1,15 +1,16 @@
-/* CSS custom properties for project colors, layout and typography. */
 :root {
-  --color-black: #0b0b0b;
-  --color-graphite: #1c1c1c;
-  --color-yellow: #f6c400;
-  --color-orange: #f28c28;
-  --color-red: #c62828;
+  --color-black: #080808;
+  --color-graphite: #171717;
+  --color-graphite-2: #242424;
+  --color-yellow: #f2bd2e;
+  --color-orange: #d96d1f;
+  --color-red: #9f1d20;
   --color-white: #ffffff;
-  --color-light: #f5f5f5;
-
+  --color-light: #f6f2ea;
+  --color-muted: #b7b0a7;
+  --color-border: rgba(255, 255, 255, 0.14);
+  --shadow-card: 0 20px 50px rgba(8, 8, 8, 0.12);
   --container-width: 1200px;
   --container-padding: 20px;
-
-  --font-main: Arial, sans-serif;
+  --font-main: Arial, Helvetica, sans-serif;
 }

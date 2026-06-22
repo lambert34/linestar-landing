@@ -1,4 +1,1 @@
-/* Services section placeholder styles. */
-.services {
-  background-color: var(--color-light);
-}
+.services{background:var(--color-white)}.cards--services{grid-template-columns:repeat(4,1fr)}.service-card{display:flex;min-height:330px;flex-direction:column;align-items:flex-start;padding:28px;border-radius:26px}.service-card h3{font-size:24px}.service-card p{margin:18px 0 28px;color:#5b5650}.service-card .button{margin-top:auto}

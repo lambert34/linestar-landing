@@ -1,4 +1,1 @@
-/* Advantages section placeholder styles. */
-.advantages {
-  background-color: var(--color-light);
-}
+.advantages{background:var(--color-light)}.cards--advantages{grid-template-columns:repeat(5,1fr)}.card{min-height:190px;padding:26px;border-radius:22px;font-weight:700}.card::before{content:"";display:block;width:42px;height:4px;margin-bottom:22px;background:linear-gradient(90deg,var(--color-yellow),var(--color-red))}
