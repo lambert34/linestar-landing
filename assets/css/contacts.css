@@ -1,12 +1,1 @@
-/* Contacts section placeholder styles. */
-.contacts {
-  background-color: var(--color-light);
-}
-
-.contacts__address {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  margin-top: 24px;
-  font-style: normal;
-}
+.contacts{background:var(--color-white)}.contacts__grid{display:grid;grid-template-columns:.8fr 1fr;gap:48px;align-items:start}.contacts p{font-size:20px;color:#5b5650}.contacts__address{display:flex;flex-direction:column;gap:14px;padding:34px;border-radius:26px;font-style:normal}.contacts__address strong{font-size:24px}.contacts__address a{font-weight:800;color:var(--color-red)}.contacts__address a:hover{color:var(--color-orange)}

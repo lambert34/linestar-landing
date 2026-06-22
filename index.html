@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="ООО «ЛАЙНСТАР»: защита интересов кредиторов, взыскание задолженности, сопровождение дел о банкротстве и судебное финансирование.">
   <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lawstar33.ru/">
+  <meta property="og:title" content="ООО «ЛАЙНСТАР» — взыскание задолженности и судебное финансирование">
+  <meta property="og:description" content="ООО «ЛАЙНСТАР»: защита интересов кредиторов, взыскание задолженности, сопровождение дел о банкротстве и судебное финансирование.">
   <link rel="canonical" href="https://lawstar33.ru/">
+  <!-- TODO: добавить favicon, если будет подготовлен фирменный значок. -->
   <title>ООО «ЛАЙНСТАР» — взыскание задолженности и судебное финансирование</title>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
@@ -13,7 +18,9 @@
 <body>
   <header class="site-header" id="top">
     <div class="container site-header__container">
-      <a class="site-header__logo" href="#top" aria-label="ЛАЙНСТАР — на главную">ЛАЙНСТАР</a>
+      <a class="site-header__logo" href="#top" aria-label="ЛАЙНСТАР — на главную">
+        <img src="assets/images/logo.png" alt="ЛАЙНСТАР" width="142" height="42">
+      </a>
 
       <nav class="site-header__nav" aria-label="Основная навигация">
         <ul class="site-header__menu">
@@ -28,72 +35,135 @@
         <a href="mailto:aleksander.son1@yandex.ru">aleksander.son1@yandex.ru</a>
       </div>
 
-      <button class="site-header__burger" type="button" aria-label="Открыть меню" aria-expanded="false">
-        <!-- Future burger icon -->
-        <span></span>
-        <span></span>
-        <span></span>
+      <button class="site-header__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+        <span></span><span></span><span></span>
       </button>
+    </div>
+
+    <div class="site-header__mobile" id="mobile-menu" aria-hidden="true">
+      <nav class="site-header__mobile-nav" aria-label="Мобильная навигация">
+        <a href="#about">О компании</a>
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+      <div class="site-header__mobile-contacts">
+        <a href="tel:+79955610104">+7 (995) 561-01-04</a>
+        <a href="mailto:aleksander.son1@yandex.ru">aleksander.son1@yandex.ru</a>
+        <span>600000, Владимирская обл, г Владимир, ул Княгининская, 5, помещ 8</span>
+      </div>
     </div>
   </header>
 
   <main>
     <section class="hero" id="hero">
-      <div class="container">
-        <h1>Взыскание задолженности и судебное финансирование</h1>
-        <p>Краткое вводное описание компании будет добавлено позже.</p>
-        <div class="hero__actions">
-          <a class="button button--primary" href="tel:+79955610104">Позвонить</a>
-          <a class="button button--secondary" href="#contacts">Написать нам</a>
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow">Юридическо-финансовая компания</p>
+          <h1>Защита интересов кредиторов и взыскание задолженности</h1>
+          <p class="hero__lead">ООО «ЛАЙНСТАР» занимается приобретением дебиторской задолженности, взысканием долгов, сопровождением дел о банкротстве и судебным финансированием.</p>
+          <div class="hero__actions">
+            <a class="button button--primary" href="tel:+79955610104">Позвонить</a>
+            <a class="button button--secondary" href="#contacts">Написать нам</a>
+          </div>
         </div>
-        <!-- Future hero content, image and animations -->
+        <div class="hero__panel" aria-label="Ключевые направления">
+          <span>ФЗ «Об исполнительном производстве»</span>
+          <strong>7+ лет</strong>
+          <p>практики в защите интересов кредиторов</p>
+          <ul>
+            <li>Дебиторская задолженность</li>
+            <li>Банкротство</li>
+            <li>Судебное финансирование</li>
+          </ul>
+        </div>
       </div>
     </section>
 
     <section class="advantages" id="advantages">
       <div class="container">
+        <p class="eyebrow">Надежная основа</p>
         <h2>Преимущества</h2>
-        <!-- Future advantages cards -->
-      </div>
-    </section>
-
-    <section class="about" id="about">
-      <div class="container">
-        <h2>О компании</h2>
-        <!-- Future company description -->
+        <div class="cards cards--advantages">
+          <article class="card">Более 7 лет опыта в защите интересов кредиторов.</article>
+          <article class="card">Работа с юридическими и физическими лицами.</article>
+          <article class="card">Практика в рамках ФЗ «Об исполнительном производстве» и ФЗ «О банкротстве».</article>
+          <article class="card">Комплексный подход к взысканию задолженности.</article>
+          <article class="card">Юридическая и финансовая экспертиза в судебных спорах.</article>
+        </div>
       </div>
     </section>
 
     <section class="services" id="services">
       <div class="container">
+        <p class="eyebrow">Направления работы</p>
         <h2>Услуги</h2>
-        <!-- Future services list -->
+        <div class="cards cards--services">
+          <article class="service-card"><h3>Приобретение дебиторской задолженности</h3><p>Покупка задолженности юридических и физических лиц.</p><a class="button button--outline" href="tel:+79955610104">Позвонить</a></article>
+          <article class="service-card"><h3>Взыскание задолженности</h3><p>Защита интересов кредиторов и сопровождение процесса принудительного взыскания долгов.</p><a class="button button--outline" href="tel:+79955610104">Позвонить</a></article>
+          <article class="service-card"><h3>Юридические и бухгалтерские услуги в делах о банкротстве</h3><p>Сопровождение процедур банкротства с юридической и бухгалтерской стороны.</p><a class="button button--outline" href="tel:+79955610104">Позвонить</a></article>
+          <article class="service-card"><h3>Судебное финансирование</h3><p>Финансирование судебных споров по согласованным условиям.</p><a class="button button--outline" href="tel:+79955610104">Позвонить</a></article>
+        </div>
       </div>
     </section>
 
     <section class="process" id="process">
       <div class="container">
-        <h2>Как мы работаем</h2>
-        <!-- Future process steps -->
+        <p class="eyebrow">Порядок взаимодействия</p>
+        <h2>Как работаем</h2>
+        <ol class="process__steps">
+          <li><strong>Обращение</strong><span>Вы связываетесь с нами по телефону или email.</span></li>
+          <li><strong>Первичный анализ</strong><span>Компания изучает ситуацию, документы и перспективы работы.</span></li>
+          <li><strong>Выбор сценария</strong><span>Определяется подходящий вариант: приобретение задолженности, взыскание, сопровождение банкротства или судебное финансирование.</span></li>
+          <li><strong>Согласование условий</strong><span>Стороны согласовывают формат и условия сотрудничества.</span></li>
+          <li><strong>Начало работы</strong><span>Компания приступает к защите интересов кредитора и сопровождению процесса.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about__grid">
+        <div>
+          <p class="eyebrow">О компании</p>
+          <h2>ООО «ЛАЙНСТАР»</h2>
+          <p>ООО «ЛАЙНСТАР» более 7 лет успешно занимается защитой интересов кредиторов в процессе принудительного взыскания долгов в соответствии с ФЗ «Об исполнительном производстве» и ФЗ «О банкротстве». Компания также оказывает юридические и бухгалтерские услуги в делах о банкротстве и предоставляет судебное финансирование по судебным спорам.</p>
+        </div>
+        <div class="about__stats">
+          <span><strong>7+</strong> лет опыта</span>
+          <span><strong>Кредиторы</strong> работа в интересах кредиторов</span>
+          <span><strong>Долги</strong> взыскание задолженности</span>
+          <span><strong>Финансирование</strong> судебное финансирование</span>
+        </div>
       </div>
     </section>
 
     <section class="contacts" id="contacts">
-      <div class="container">
-        <h2>Контакты</h2>
+      <div class="container contacts__grid">
+        <div>
+          <p class="eyebrow">Связаться с нами</p>
+          <h2>Контакты</h2>
+          <p>Для обсуждения задолженности, банкротства или судебного финансирования свяжитесь с нами по телефону или email.</p>
+        </div>
         <address class="contacts__address">
-          <a href="tel:+79955610104">+7 (995) 561-01-04</a>
-          <a href="mailto:aleksander.son1@yandex.ru">aleksander.son1@yandex.ru</a>
+          <strong>ООО «ЛАЙНСТАР»</strong>
+          <span>ИНН: 3327139743</span>
+          <a href="tel:+79955610104">Телефон: +7 (995) 561-01-04</a>
+          <a href="mailto:aleksander.son1@yandex.ru">Email: aleksander.son1@yandex.ru</a>
+          <span>Адрес: 600000, Владимирская обл, г Владимир, ул Княгининская, 5, помещ 8</span>
         </address>
-        <!-- Future address, map and contact details -->
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container">
-      <p>© ООО «ЛАЙНСТАР»</p>
-      <!-- Future footer navigation and legal links -->
+    <div class="container site-footer__grid">
+      <a class="site-footer__logo" href="#top" aria-label="ЛАЙНСТАР — на главную"><img src="assets/images/logo.png" alt="ЛАЙНСТАР" width="142" height="42"></a>
+      <p>ООО «ЛАЙНСТАР» — защита интересов кредиторов, взыскание задолженности, сопровождение дел о банкротстве и судебное финансирование.</p>
+      <div class="site-footer__contacts">
+        <a href="tel:+79955610104">+7 (995) 561-01-04</a>
+        <a href="mailto:aleksander.son1@yandex.ru">aleksander.son1@yandex.ru</a>
+        <span>ИНН: 3327139743</span>
+      </div>
+      <small>© ООО «ЛАЙНСТАР». Все права защищены.</small>
     </div>
   </footer>
 </body>

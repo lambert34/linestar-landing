@@ -1,4 +1,1 @@
-/* Process section placeholder styles. */
-.process {
-  background-color: var(--color-white);
-}
+.process{color:var(--color-white);background:linear-gradient(135deg,var(--color-graphite),var(--color-black))}.process__steps{display:grid;grid-template-columns:repeat(5,1fr);gap:18px;counter-reset:steps}.process__steps li{position:relative;min-height:230px;padding:26px;border:1px solid var(--color-border);border-radius:22px;background:rgba(255,255,255,.06);counter-increment:steps}.process__steps li::before{content:"0" counter(steps);display:block;margin-bottom:34px;color:var(--color-yellow);font-size:34px;font-weight:800}.process__steps strong{display:block;margin-bottom:10px;font-size:20px}.process__steps span{color:#ddd}
