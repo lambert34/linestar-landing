@@ -1,0 +1,15 @@
+/* CSS custom properties for project colors, layout and typography. */
+:root {
+  --color-black: #0b0b0b;
+  --color-graphite: #1c1c1c;
+  --color-yellow: #f6c400;
+  --color-orange: #f28c28;
+  --color-red: #c62828;
+  --color-white: #ffffff;
+  --color-light: #f5f5f5;
+
+  --container-width: 1200px;
+  --container-padding: 20px;
+
+  --font-main: Arial, sans-serif;
+}

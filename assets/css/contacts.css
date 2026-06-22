@@ -1,0 +1,12 @@
+/* Contacts section placeholder styles. */
+.contacts {
+  background-color: var(--color-light);
+}
+
+.contacts__address {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 24px;
+  font-style: normal;
+}

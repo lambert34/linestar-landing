@@ -1,0 +1,48 @@
+/* Header, logo, navigation and future burger menu. */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  color: var(--color-white);
+  background-color: var(--color-black);
+}
+
+.site-header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  min-height: 72px;
+}
+
+.site-header__logo {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.site-header__menu,
+.site-header__contacts {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.site-header__contacts {
+  font-size: 14px;
+}
+
+.site-header__burger {
+  display: none;
+  width: 44px;
+  padding: 8px;
+  background: transparent;
+  border-color: var(--color-white);
+}
+
+.site-header__burger span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-white);
+}
